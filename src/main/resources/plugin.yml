@@ -1,0 +1,10 @@
+name: InfernoChristmas
+version: '1.0.0'
+main: dev.demondev.infernoChristmas.InfernoChristmas
+api-version: '1.21'
+load: STARTUP
+authors: [ DemonDev ]
+description: Christmas Plugin for infernorifts
+commands:
+  present:
+    description: Create Presents
