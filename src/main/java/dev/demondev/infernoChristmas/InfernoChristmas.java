@@ -2,6 +2,7 @@ package dev.demondev.infernoChristmas;
 
 import dev.demondev.infernoChristmas.commands.PresentCommand;
 import dev.demondev.infernoChristmas.listeners.MenuListener;
+import dev.demondev.infernoChristmas.listeners.PresentListener;
 import dev.demondev.infernoChristmas.menu.PlayerMenuUtility;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -22,6 +23,7 @@ public final class InfernoChristmas extends JavaPlugin {
         getCommand("present").setExecutor(new PresentCommand());
 
         getServer().getPluginManager().registerEvents(new MenuListener(), this);
+        getServer().getPluginManager().registerEvents(new PresentListener(), this);
 
     }
 
