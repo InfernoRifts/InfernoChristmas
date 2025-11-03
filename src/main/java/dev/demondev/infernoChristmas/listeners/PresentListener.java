@@ -87,8 +87,14 @@ public class PresentListener implements Listener {
                   Chest c = (Chest) e.getInventory().getHolder();
                    Block chest = state.getBlock();
                   ItemStack[] items = c.getInventory().getContents();
-
                   e.setCancelled(true);
+
+                  container.remove(new NamespacedKey(InfernoChristmas.getPlugin(), "present"));
+                  state.update();
+
+                  Chest newChest = (Chest) chest.getState();
+                  newChest.getSnapshotInventory().clear();
+                  newChest.update();
 
                 ArmorStand merryChristmas = (ArmorStand) chest.getLocation().getWorld().spawnEntity(chest.getLocation().add(0.5, -0.5, 0.5), EntityType.ARMOR_STAND);
                 merryChristmas.setGravity(false);

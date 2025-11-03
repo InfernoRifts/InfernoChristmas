@@ -13,9 +13,7 @@ public class PresentCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (sender instanceof Player){
-
-            Player p = (Player) sender;
+        if (sender instanceof Player p){
 
             // /present <to> <message>
 
