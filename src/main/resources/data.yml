@@ -1,0 +1,4 @@
+# data.yml
+# Stores which players have claimed which advent days
+
+players: {}

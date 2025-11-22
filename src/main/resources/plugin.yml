@@ -7,4 +7,18 @@ authors: [ DemonDev ]
 description: Christmas Plugin for infernorifts
 commands:
   present:
-    description: Create Presents
+    description: present command
+  advent:
+    description: Opens the Advent Calendar GUI
+    usage: /advent
+    permission: adventcalendar.open
+    aliases: [calendar]
+  adventsimulate:
+    description: Simulates a specific day for testing
+    usage: /adventsimulate <day>
+    permission: adventcalendar.simulate
+  permissions:
+    adventcalendar.open:
+      default: true
+    adventcalendar.simulate:
+      default: op

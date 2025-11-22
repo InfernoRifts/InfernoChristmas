@@ -1,0 +1,215 @@
+settings:
+  total_days: 25
+  timezone: "America/New_York"
+
+calendar_gui:
+  title: "§cA§ad§cv§ae§cn§at §cC§aa§cl§ae§cn§ad§ca§ar"
+  size: 45
+
+  filler_item:
+    material: BLACK_STAINED_GLASS_PANE
+    name: ""
+
+  states:
+    claimed:
+      material: LIME_CANDLE
+      name: "§aDay %day% ✓"
+      lore:
+        - "§7You already claimed this day."
+
+    missed:
+      material: RED_CANDLE
+      name: "§cDay %day%"
+      lore:
+        - "§7You missed this day."
+
+    locked:
+      material: ORANGE_CANDLE
+      name: '§eDay %day%'
+      lore:
+        - '§7This day is currently locked. Try again soon!'
+
+  days:
+    1:
+      material: CHEST
+      name: "§e§lDay 1"
+      lore:
+        - "§7Click to claim your gift!"
+    2:
+      material: CHEST
+      name: "§e§lDay 2"
+      lore:
+        - "§7Click to claim your gift!"
+    3:
+      material: CHEST
+      name: "§e§lDay 3"
+      lore:
+        - "§7Click to claim your gift!"
+    4:
+      material: CHEST
+      name: "§e§lDay 4"
+      lore:
+        - "§7Click to claim your gift!"
+    5:
+      material: CHEST
+      name: "§e§lDay 5"
+      lore:
+        - "§7Click to claim your gift!"
+    6:
+      material: CHEST
+      name: "§e§lDay 6"
+      lore:
+        - "§7Click to claim your gift!"
+    7:
+      material: CHEST
+      name: "§e§lDay 7"
+      lore:
+        - "§7Click to claim your gift!"
+    8:
+      material: CHEST
+      name: "§e§lDay 8"
+      lore:
+        - "§7Click to claim your gift!"
+    9:
+      material: CHEST
+      name: "§e§lDay 9"
+      lore:
+        - "§7Click to claim your gift!"
+    10:
+      material: CHEST
+      name: "§e§lDay 10"
+      lore:
+        - "§7Click to claim your gift!"
+    11:
+      material: CHEST
+      name: "§e§lDay 11"
+      lore:
+        - "§7Click to claim your gift!"
+    12:
+      material: CHEST
+      name: "§e§lDay 12"
+      lore:
+        - "§7Click to claim your gift!"
+    13:
+      material: CHEST
+      name: "§e§lDay 13"
+      lore:
+        - "§7Click to claim your gift!"
+    14:
+      material: CHEST
+      name: "§e§lDay 14"
+      lore:
+        - "§7Click to claim your gift!"
+    15:
+      material: CHEST
+      name: "§e§lDay 15"
+      lore:
+        - "§7Click to claim your gift!"
+    16:
+      material: CHEST
+      name: "§e§lDay 16"
+      lore:
+        - "§7Click to claim your gift!"
+    17:
+      material: CHEST
+      name: "§e§lDay 17"
+      lore:
+        - "§7Click to claim your gift!"
+    18:
+      material: CHEST
+      name: "§e§lDay 18"
+      lore:
+        - "§7Click to claim your gift!"
+    19:
+      material: CHEST
+      name: "§e§lDay 19"
+      lore:
+        - "§7Click to claim your gift!"
+    20:
+      material: CHEST
+      name: "§e§lDay 20"
+      lore:
+        - "§7Click to claim your gift!"
+    21:
+      material: CHEST
+      name: "§e§lDay 21"
+      lore:
+        - "§7Click to claim your gift!"
+    22:
+      material: CHEST
+      name: "§e§lDay 22"
+      lore:
+        - "§7Click to claim your gift!"
+    23:
+      material: CHEST
+      name: "§e§lDay 23"
+      lore:
+        - "§7Click to claim your gift!"
+    24:
+      material: CHEST
+      name: "§e§lDay 24"
+      lore:
+        - "§7Click to claim your gift!"
+    25:
+      material: CHEST
+      name: "§e§lDay 25"
+      lore:
+        - "§7Merry Christmas!"
+
+calendar_messages:
+  already_claimed: "§cYou already claimed this days reward!"
+  missed_day: "§cThis day has already passed!"
+  cannot_claim: "§cThis day is not unlocked yet!"
+  claimed_success: "§aYou claimed your reward for day %day%!"
+
+rewards:
+  1:
+    - "give %player% diamond 1"
+  2:
+    - "give %player% gold_ingot 5"
+  3:
+    - "give %player% iron_ingot 10"
+  4:
+    - "give %player% bread 5"
+  5:
+    - "give %player% cooked_beef 5"
+  6:
+    - "give %player% apple 3"
+  7:
+    - "give %player% cookie 10"
+  8:
+    - "give %player% pumpkin 2"
+  9:
+    - "give %player% emerald 1"
+  10:
+    - "give %player% golden_apple 1"
+  11:
+    - "give %player% stick 1"
+  12:
+    - "give %player% bow 1"
+  13:
+    - "give %player% arrow 16"
+  14:
+    - "give %player% potion 1"
+  15:
+    - "give %player% book 1"
+  16:
+    - "give %player% feather 5"
+  17:
+    - "give %player% coal 10"
+  18:
+    - "give %player% iron_sword 1"
+  19:
+    - "give %player% shield 1"
+  20:
+    - "give %player% fishing_rod 1"
+  21:
+    - "give %player% carrot 5"
+  22:
+    - "give %player% potato 5"
+  23:
+    - "give %player% melon 5"
+  24:
+    - "give %player% cookie 20"
+  25:
+    - "give %player% firework_rocket 10"
