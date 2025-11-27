@@ -28,9 +28,9 @@ public class PresentCommand implements CommandExecutor {
 
                     PlayerMenuUtility playerMenuUtility = InfernoChristmas.getPlayerMenuUtility(p);
                     if (args.length == 1){
-                        playerMenuUtility.setRecipient(recipient.getDisplayName());
+                        playerMenuUtility.setRecipient(String.valueOf(recipient.getPlayer().getName()));
                     }else if (args.length > 1){
-                        playerMenuUtility.setRecipient(recipient.getDisplayName());
+                        playerMenuUtility.setRecipient(String.valueOf(recipient.getPlayer().getName()));
 
                         StringBuilder message = new StringBuilder();
                         for (int i = 1; i < args.length; i++){
